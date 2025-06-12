@@ -4,7 +4,6 @@ A simple, intuitive Flask app that estimates median house prices in Boston based
 
 
 🚀 Live Demo
-
 Check it out right here:  
 👉 https://boston-houseprice-prediction-g32w.onrender.com/
 
