@@ -63,6 +63,29 @@
             max-width: 600px;
             margin: 0 auto;
         }
+        .github-btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 12px 24px;
+    background: linear-gradient(135deg, #24292e, #444d56);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.github-btn:hover {
+    background: linear-gradient(135deg, #2c3238, #4a545c);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.github-icon {
+    margin-right: 8px;
+    font-size: 1.2rem;
+}
 
         .stats-container {
             display: grid;
@@ -355,9 +378,17 @@
     
     <div class="container">
         <header class="header">
-            <h1>🏠Boston Housing Price Predictor</h1>
-            <p class="subtitle">Professional Property Valuation System powered by basic Machine Learning</p>
-        </header>
+    <h1>🏠Boston Housing Price Predictor</h1>
+    <p class="subtitle">Professional Property Valuation System powered by basic Machine Learning</p>
+    
+    <!-- GitHub Button -->
+    <div style="margin-top: 20px;">
+        <a href="https://github.com/YOUR_USERNAME/YOUR_REPO_NAME" target="_blank" class="github-btn">
+            <span class="github-icon">⭐</span>
+            View Source Code on GitHub
+        </a>
+    </div>
+</header>
 
         <div class="stats-container">
             <div class="stat-card">
