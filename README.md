@@ -67,7 +67,6 @@ MODEL IS TRAINED BASED ON DATA GIVEN IN THE REPO NAMED AS BostonHousing.cvs
    python app.py
    ```
 
-   Open your browser at `http://127.0.0.1:5000`
 
 
 
